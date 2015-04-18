@@ -2,6 +2,8 @@
 var move = require('./lib/movement');
 
 module.exports = function (server) {
+  move.init();
+
   server.get('/stream', function (req, res, next) {
     res.writeHead(200);
     res.write('Stream');

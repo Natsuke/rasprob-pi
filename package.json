@@ -19,6 +19,7 @@
     "url": "https://github.com/Natsuke/rasprob-pi-api/issues"
   },
   "dependencies": {
+    "async": "^0.9.0",
     "fluent-ffmpeg": "^2.0.0-rc3",
     "gpio": "^0.2.7",
     "pi-gpio": "0.0.7"
