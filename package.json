@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "fluent-ffmpeg": "^2.0.0-rc3",
-    "gpio": "^0.2.7"
+    "gpio": "^0.2.7",
+    "pi-gpio": "0.0.7"
   },
   "devDependencies": {
     "chai": "~1.10.0",

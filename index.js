@@ -1,5 +1,5 @@
 
-var move = require('./lib/movement')();
+var move = require('./lib/movement');
 
 module.exports = function (server) {
   server.get('/stream', function (req, res, next) {
